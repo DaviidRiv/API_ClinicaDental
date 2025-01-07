@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{55C174F8-CBBC-40F7-8820-A4BDEB067DAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{1FB02892-DD38-41EA-9956-CFFFCD247913}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{C3F3EFA8-FC3B-450E-8B39-6EAE99825E50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{7DF7880C-8493-4D07-AA6F-4E33A42573A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{FAD28A63-783E-496C-B18F-00B7F0ABE5B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinica.Domain", "..\CursoAPI\Source\ClinicaDentalAPI\src\Clinica.Domain\Clinica.Domain.csproj", "{EF5E49B5-11A0-4C84-A987-545527F8785C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinica.Infraestructure", "..\CursoAPI\Source\ClinicaDentalAPI\src\Clinica.Infraestructure\Clinica.Infraestructure.csproj", "{B3C4030A-7045-4230-8A1B-7B9E548B686B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinica.Persistence", "..\CursoAPI\Source\ClinicaDentalAPI\src\Clinica.Persistence\Clinica.Persistence.csproj", "{BB908AB7-A2E1-4225-B0CC-CE4B895641A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinica.Application.Dtos", "..\CursoAPI\Source\ClinicaDentalAPI\src\Clinica.Application.Dtos\Clinica.Application.Dtos.csproj", "{7588D7AB-D4A3-4D9C-8C88-72AF20920E0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinica.Application.Interface", "..\CursoAPI\Source\ClinicaDentalAPI\src\Clinica.Application.Interface\Clinica.Application.Interface.csproj", "{129D0AD9-1F6D-443F-B242-0D8C6F1A4FB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinica.Application.UseCase", "..\CursoAPI\Source\ClinicaDentalAPI\src\Clinica.Application.UseCase\Clinica.Application.UseCase.csproj", "{72DA7B2B-FED9-4D0B-803E-9A0D2C7CC339}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinica.Api", "..\CursoAPI\Source\ClinicaDentalAPI\src\Clinica.Api\Clinica.Api.csproj", "{BDC9D656-6093-44B6-9BFA-2ADA6302DFCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinica.Utilities", "..\CursoAPI\Source\ClinicaDentalAPI\src\Clinica.Utilities\Clinica.Utilities.csproj", "{6E6A193F-D222-46F7-B30C-EA54AB4BBBD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF5E49B5-11A0-4C84-A987-545527F8785C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF5E49B5-11A0-4C84-A987-545527F8785C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF5E49B5-11A0-4C84-A987-545527F8785C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF5E49B5-11A0-4C84-A987-545527F8785C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3C4030A-7045-4230-8A1B-7B9E548B686B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C4030A-7045-4230-8A1B-7B9E548B686B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C4030A-7045-4230-8A1B-7B9E548B686B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C4030A-7045-4230-8A1B-7B9E548B686B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB908AB7-A2E1-4225-B0CC-CE4B895641A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB908AB7-A2E1-4225-B0CC-CE4B895641A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB908AB7-A2E1-4225-B0CC-CE4B895641A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB908AB7-A2E1-4225-B0CC-CE4B895641A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7588D7AB-D4A3-4D9C-8C88-72AF20920E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7588D7AB-D4A3-4D9C-8C88-72AF20920E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7588D7AB-D4A3-4D9C-8C88-72AF20920E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7588D7AB-D4A3-4D9C-8C88-72AF20920E0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{129D0AD9-1F6D-443F-B242-0D8C6F1A4FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129D0AD9-1F6D-443F-B242-0D8C6F1A4FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129D0AD9-1F6D-443F-B242-0D8C6F1A4FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129D0AD9-1F6D-443F-B242-0D8C6F1A4FB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72DA7B2B-FED9-4D0B-803E-9A0D2C7CC339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72DA7B2B-FED9-4D0B-803E-9A0D2C7CC339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72DA7B2B-FED9-4D0B-803E-9A0D2C7CC339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72DA7B2B-FED9-4D0B-803E-9A0D2C7CC339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDC9D656-6093-44B6-9BFA-2ADA6302DFCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC9D656-6093-44B6-9BFA-2ADA6302DFCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC9D656-6093-44B6-9BFA-2ADA6302DFCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC9D656-6093-44B6-9BFA-2ADA6302DFCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E6A193F-D222-46F7-B30C-EA54AB4BBBD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E6A193F-D222-46F7-B30C-EA54AB4BBBD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E6A193F-D222-46F7-B30C-EA54AB4BBBD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E6A193F-D222-46F7-B30C-EA54AB4BBBD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF5E49B5-11A0-4C84-A987-545527F8785C} = {1FB02892-DD38-41EA-9956-CFFFCD247913}
+		{B3C4030A-7045-4230-8A1B-7B9E548B686B} = {C3F3EFA8-FC3B-450E-8B39-6EAE99825E50}
+		{BB908AB7-A2E1-4225-B0CC-CE4B895641A7} = {C3F3EFA8-FC3B-450E-8B39-6EAE99825E50}
+		{7588D7AB-D4A3-4D9C-8C88-72AF20920E0B} = {55C174F8-CBBC-40F7-8820-A4BDEB067DAE}
+		{129D0AD9-1F6D-443F-B242-0D8C6F1A4FB2} = {55C174F8-CBBC-40F7-8820-A4BDEB067DAE}
+		{72DA7B2B-FED9-4D0B-803E-9A0D2C7CC339} = {55C174F8-CBBC-40F7-8820-A4BDEB067DAE}
+		{BDC9D656-6093-44B6-9BFA-2ADA6302DFCC} = {7DF7880C-8493-4D07-AA6F-4E33A42573A3}
+		{6E6A193F-D222-46F7-B30C-EA54AB4BBBD4} = {FAD28A63-783E-496C-B18F-00B7F0ABE5B5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4EFFE5B-2196-4BDF-942F-A02AB3DD00DA}
+	EndGlobalSection
+EndGlobal
